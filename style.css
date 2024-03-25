@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+.container{
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(images/background.png);
+    width:100%;
+    min-height:100vh;
+    border: 1px solid;
+    background-size: cover;
+    background-position: center;
+    padding:10px 8%;
+    
+}
+ nav{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo{
+    width:180px;
+    cursor: pointer;
+}
+nav ul{
+list-style: none;
+width: 100%;
+text-align: right;
+padding-right: 60px;
+
+}
+nav ul li{
+   
+    display: inline-block;
+    margin: 10px 20px;
+  
+  
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    
+}
+.btn{
+    display: flex;
+  align-items:center;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  background:red;
+  color:white;
+  font-weight:500;
+  cursor:pointer;
+}
+.btn img{
+    width: 20px;
+    margin-right:10px;
+}
+
+.content{
+    margin-top: 14%;
+    color:white;
+    max-width: 550px;
+
+}
+.content h1{
+    font-size:70px;
+    font-weight: 600;
+    line-height: 86px;
+    margin-bottom: 20px;
+}
+form{
+    display:flex;
+    background: white;
+    margin-top:30px;
+    padding:10px;
+    border-radius: 5px;
+    align-items: center;
+}
+.content input{
+    border:0;
+    outline:0; 
+    width:100%;
+    font-size:16px;
+    padding-left:10px;
+
+}
+.content form btn{
+    font-size:15px;
+    padding:10px 30px;
+}
